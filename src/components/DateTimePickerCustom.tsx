@@ -21,7 +21,7 @@ const DateTimePickerCustom = () => {
                 onClose={() => { setIsOpen(false); } }
                 renderInput={(params) => {
                     return (
-                        <ButtonComponent ref={params.inputRef} onClick={clickHandler}>Open</ButtonComponent>
+                        <ButtonComponent ref={params.inputRef} onClick={clickHandler}>CUSTOM</ButtonComponent>
                     );
                 } } 
                 onChange={(date, keyboardEvent) => {

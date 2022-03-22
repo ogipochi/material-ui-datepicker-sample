@@ -5,9 +5,11 @@ type Props = {
     ref?: React.Ref<any>
 } & React.HTMLAttributes<HTMLButtonElement>;
 
-const ButtonComponent = (props: Props) => {
+const ButtonComponent: React.FC<Props> = (props) => {
     return (
-        <button {...props} />
+        <button {...props}>
+            {props.children}
+        </button>
     )
 }
 

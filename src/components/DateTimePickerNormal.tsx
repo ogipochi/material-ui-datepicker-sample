@@ -20,7 +20,7 @@ const DateTimePickerNormal = () => {
                 onClose={() => { setIsOpen(false); } }
                 renderInput={(params) => {
                     return (
-                        <button ref={params.inputRef} onClick={clickHandler}>Open</button>
+                        <button ref={params.inputRef} onClick={clickHandler}>NORMAL</button>
                     );
                 } } 
                 onChange={(date, keyboardEvent) => {
